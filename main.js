@@ -22,7 +22,7 @@ app.get('/answerCall', (req, res) => {
     currentMessage = '';
     res.end('200');
 });
-*
+
 app.get('/stopCalling', (req, res) => {
     isCalling = false;
     currentMessage = '';
